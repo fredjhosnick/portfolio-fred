@@ -65,7 +65,7 @@ const Experience = () => {
 
       <VerticalTimelineElement 
       className='vertical-timeline-element--work' 
-      date='01.03.20213 - 30.03.2021'
+      date='01.03.2021 - 30.03.2021'
       iconStyle={{background:'#e9d35b', color:'#fff'}}
       icon={<WorkIcon/>}
       >
