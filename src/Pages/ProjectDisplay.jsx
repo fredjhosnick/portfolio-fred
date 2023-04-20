@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams,Link } from 'react-router-dom'
 import ProjectList from '../helpers/ProjectList';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import '../Styles/ProjectDisplay.css'
@@ -11,9 +11,10 @@ const ProjectDisplay = () => {
   return (
     <div className='project'>
         <h1>{project.name}</h1>
-        <img src={project.image} />
+        <Link to={project.email} target='_blank'><img src={project.image} /></Link>
         <p>{project.skills}</p>
-        <GitHubIcon/>
+        <Link to={project.github} target='_blank'><GitHubIcon/></Link>
+        
     </div>
   )
 }
