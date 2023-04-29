@@ -2,6 +2,7 @@ import Proj1 from '../assets/proj1.jpg'
 import Proj2 from '../assets/proj2.jpg'
 import Proj3 from '../assets/proj3.jpg'
 import Proj4 from '../assets/proj4.jpg'
+import Proj5 from '../assets/proj5.jpg'
 
 const ProjectList = [
   
@@ -33,7 +34,15 @@ const ProjectList = [
          email:"https://techshop-ruddy.vercel.app/",
          github:"https://github.com/fredjhosnick/techshop"
     
-      }
+      },
+      {
+         name:"Tech-Shop",
+          image:Proj5,
+          skills:"Javascript,React.js",
+          email:"https://todo-list-delta-peach.vercel.app/",
+          github:"https://github.com/fredjhosnick/todo-list"
+     
+       }
 ]
 
 export default ProjectList
