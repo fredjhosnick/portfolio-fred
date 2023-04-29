@@ -36,7 +36,7 @@ const ProjectList = [
     
       },
       {
-         name:"Tech-Shop",
+         name:"Todo-List",
           image:Proj5,
           skills:"Javascript,React.js",
           email:"https://todo-list-delta-peach.vercel.app/",
